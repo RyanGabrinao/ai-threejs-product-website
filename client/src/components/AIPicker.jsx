@@ -5,7 +5,7 @@ import CustomButton from "./CustomButton";
 const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   return (
     <div className="aipicker-container">
-      <textarea
+      {/* <textarea
         placeholder="Ask AI..."
         rows={5}
         value={prompt}
@@ -35,7 +35,8 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
             />
           </>
         )}
-      </div>
+      </div> */}
+      Coming Soon!!!
     </div>
   );
 };
